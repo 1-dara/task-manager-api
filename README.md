@@ -90,5 +90,5 @@ npm run dev
 
 **Irene Peter-Okon Idara**  
 **Backend Engineer**
-Email - 1ireneokon@gmail.com  
+<p>Email - 1ireneokon@gmail.com  
 Github - github.com/1-dara
