@@ -2,9 +2,8 @@
 
 A production-grade task management backend built with **Node.js**, **Express**, and **PostgreSQL** via **Prisma ORM**. Deployed and live.
 
- **Live API Docs:** https://task-manager-api-n7wv.onrender.com/docs 
+ **Live API:** https://task-manager-api-n7wv.onrender.com  
  **GitHub:** https://github.com/1-dara/task-manager-api
-
 ---
 
 ## Features
