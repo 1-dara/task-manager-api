@@ -2,7 +2,7 @@
 
 A production-grade task management backend built with **Node.js**, **Express**, and **PostgreSQL** via **Prisma ORM**. Deployed and live.
 
- **Live API:** https://task-manager-api-n7wv.onrender.com  
+ **Live API Docs:** https://task-manager-api-n7wv.onrender.com/docs 
  **GitHub:** https://github.com/1-dara/task-manager-api
 
 ---
@@ -14,7 +14,7 @@ A production-grade task management backend built with **Node.js**, **Express**, 
 - **Task Properties** — Title, description, status, priority and due date
 - **Filters** — Filter tasks by status and priority
 - **Protected Routes** — All task endpoints require authentication
-- **User Isolation** — Users can only access their own tasks
+- **User Isolation** — Users can only access their own tasks 
 
 ---
 
@@ -87,9 +87,9 @@ npm run dev
 
 ---
 
-## Author
+##  Author
 
 **Irene Peter-Okon Idara**  
-Backend Engineer  
-Email - 1ireneokon@gmail.com  
-Github - github.com/1-dara
+**Backend Engineer**
+**Email** - 1ireneokon@gmail.com  
+**Git** - github.com/1-dara
