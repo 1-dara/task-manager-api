@@ -8,6 +8,8 @@ import authRoutes from './routes/authRoutes.js';
 import taskRoutes from './routes/taskRoutes.js';
 import cors from 'cors';
 import app from './app.js';
+import rateLimit from 'express-rate-limit';
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
@@ -17,6 +19,13 @@ app.listen(PORT, () => {
 
 const app = express();
 app.use(express.json());
+const limiter = rateLimit({
+    windowMs: 60 * 1000,
+    max: 100,
+    message: { error: 'Too many requests, please try again later' }
+});
+app.use(limiter);
+
 app.use(cors());
 
 
