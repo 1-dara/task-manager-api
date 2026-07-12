@@ -15,6 +15,8 @@ A production-grade task management backend built with **Node.js**, **Express**, 
 - **Protected Routes** — All task endpoints require authentication
 - **User Isolation** — Users can only access their own tasks 
 - **Rate Limiting** — 100 requests per minute per IP address using express-rate-limit
+- **CI/CD** — GitHub Actions pipeline runs tests automatically on every push to main
+
 
 
 ---
@@ -31,6 +33,8 @@ A production-grade task management backend built with **Node.js**, **Express**, 
 | bcryptjs | Password hashing |
 | Render | Deployment |
 | express-rate-limit | Rate limiting middleware |
+| GitHub Actions | CI/CD pipeline |
+
 
 
 ---
