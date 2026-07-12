@@ -13,7 +13,14 @@
     "test": "node --experimental-vm-modules node_modules/.bin/jest --testEnvironment node"
   },
   "jest": {
-    "transform": {}
+    "transform": {},
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ],
+    "globalSetup": "./src/__tests__/setup.js",
+    "moduleNameMapper": {
+      "../../generated/prisma/client.js": "<rootDir>/generated/prisma/client.ts"
+    }
   },
   "keywords": [],
   "author": "",
