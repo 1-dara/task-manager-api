@@ -14,6 +14,8 @@ A production-grade task management backend built with **Node.js**, **Express**, 
 - **Filters** — Filter tasks by status and priority
 - **Protected Routes** — All task endpoints require authentication
 - **User Isolation** — Users can only access their own tasks 
+- **Rate Limiting** — 100 requests per minute per IP address using express-rate-limit
+
 
 ---
 
@@ -28,6 +30,8 @@ A production-grade task management backend built with **Node.js**, **Express**, 
 | JWT | Authentication |
 | bcryptjs | Password hashing |
 | Render | Deployment |
+| express-rate-limit | Rate limiting middleware |
+
 
 ---
 
