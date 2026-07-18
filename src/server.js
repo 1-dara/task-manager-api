@@ -9,7 +9,7 @@ import taskRoutes from './routes/taskRoutes.js';
 import cors from 'cors';
 import app from './app.js';
 import rateLimit from 'express-rate-limit';
-
+import app from './app.js';
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
