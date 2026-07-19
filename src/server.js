@@ -9,7 +9,6 @@ import taskRoutes from './routes/taskRoutes.js';
 import cors from 'cors';
 import app from './app.js';
 import rateLimit from 'express-rate-limit';
-import app from './app.js';
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
@@ -72,8 +71,3 @@ app.get('/', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-    console.log(`Docs available at http://localhost:${PORT}/docs`);
-});
